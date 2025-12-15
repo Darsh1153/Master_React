@@ -13,3 +13,21 @@ Displays a heading text on the screen
 
 <img width="665" height="323" alt="Screenshot 2025-12-15 at 10 30 56 PM" src="https://github.com/user-attachments/assets/f77526d1-f24a-43f3-ba01-395b228c64c4" />
 
+What is JSX?
+JSX stands for JavaScript XML.
+It is a syntax extension for JavaScript used in React that allows us to write HTML-like code inside JavaScript.
+
+Example
+<img width="542" height="81" alt="Screenshot 2025-12-15 at 10 33 46 PM" src="https://github.com/user-attachments/assets/775e7f09-613d-4b0b-9a57-f2891c7a16a1" />
+
+What happens behind the scenes?
+JSX is NOT understood by the browser.
+
+So this JSX code: <br/>
+<img width="499" height="79" alt="Screenshot 2025-12-15 at 10 34 22 PM" src="https://github.com/user-attachments/assets/bf2d1ae2-74a6-40be-8484-cdf75ca02ae3" />
+
+is converted (compiled) into:
+<img width="529" height="85" alt="Screenshot 2025-12-15 at 10 34 47 PM" src="https://github.com/user-attachments/assets/4bcd13ec-8510-4eb6-947c-85b45c4dc9a6" /> <br/>
+This conversion is done by tools like Babel. <br/>
+👉 JSX is just a cleaner way to write React.createElement. <br/>
+
