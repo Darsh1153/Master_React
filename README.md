@@ -29,5 +29,17 @@ So this JSX code: <br/>
 is converted (compiled) into:
 <img width="529" height="85" alt="Screenshot 2025-12-15 at 10 34 47 PM" src="https://github.com/user-attachments/assets/4bcd13ec-8510-4eb6-947c-85b45c4dc9a6" /> <br/>
 This conversion is done by tools like Babel. <br/>
-👉 JSX is just a cleaner way to write React.createElement. <br/>
+👉 JSX is just a cleaner way to write React.createElement. <br/> <br/>
+
+
+# What are Hooks in React?
+Hooks are special functions in React that allow functional components to:
+
+1. Manage state
+2. Use lifecycle features
+3. Access other React features
+
+Before Hooks (pre-React 16.8), these features were only available in class components.
+<br/>
+Hooks let you “hook into” React features from function components.
 
