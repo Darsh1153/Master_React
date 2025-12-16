@@ -48,5 +48,8 @@ What is useState?
 useState is a React Hook that allows you to:
 1. Create state variables
 2. Update state
-3. Automatically re-render the component when state changes
+3. Automatically re-render the component when state changes.<br/>
+<img width="643" height="651" alt="Screenshot 2025-12-16 at 11 11 01 PM" src="https://github.com/user-attachments/assets/f6887ef5-c3df-4eb5-95e9-ce0413c81961" />
+
+<br/>
 
