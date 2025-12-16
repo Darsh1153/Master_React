@@ -52,12 +52,20 @@ useState is a React Hook that allows you to:
 <img width="643" height="651" alt="Screenshot 2025-12-16 at 11 11 01 PM" src="https://github.com/user-attachments/assets/f6887ef5-c3df-4eb5-95e9-ce0413c81961" />
 
 <br/>
-### How it Works:
+## How it Works:
 Component renders with count = 0
 
 Button click calls setCount(1)
 
 React updates state
 
-Component re-renders with updated value
+Component re-renders with updated value <br/>
 
+
+# What is Reconciliation in React?
+Reconciliation is the process by which React updates the UI when state or props change.
+When something changes in your app:
+React figures out what changed
+React updates only those parts of the UI
+
+<br/>
