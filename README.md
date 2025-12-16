@@ -43,3 +43,10 @@ Before Hooks (pre-React 16.8), these features were only available in class compo
 <br/>
 Hooks let you “hook into” React features from function components.
 
+## useState Hook
+What is useState?
+useState is a React Hook that allows you to:
+1. Create state variables
+2. Update state
+3. Automatically re-render the component when state changes
+
