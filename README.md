@@ -69,3 +69,12 @@ React figures out what changed
 React updates only those parts of the UI
 
 <br/>
+
+## useEffect Hook
+What is useEffect in React?
+<img width="730" height="503" alt="image" src="https://github.com/user-attachments/assets/f59f6bfb-2a20-4f4e-b5d7-11b02da0e8f1" />
+<br/>
+<img width="1470" height="1320" alt="image" src="https://github.com/user-attachments/assets/288e5073-0cb0-4c7e-88e3-e11358ac9529" /> <br/>
+<img width="761" height="969" alt="image" src="https://github.com/user-attachments/assets/4c988dd7-b930-494a-9059-126088579b56" /> <br/>
+
+
