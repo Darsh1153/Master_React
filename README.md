@@ -90,3 +90,11 @@ They: <br/>
 
 Before Hooks existed, class components were the only way to use state and lifecycle logic. <br/>
 
+<img width="592" height="324" alt="Screenshot 2026-01-06 at 1 06 52 PM" src="https://github.com/user-attachments/assets/342fea36-291b-4b3a-a766-e0cb79f5bc15" />
+<br/>
+
+### What’s happening here? <br/>
+class User → creates a component <br/>
+extends React.Component → inherits React features <br/>
+render() → returns JSX (UI) <br/>
+
