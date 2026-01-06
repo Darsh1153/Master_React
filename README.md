@@ -259,5 +259,9 @@ class UserClass extends React.Component{
 }
 
 export default UserClass;
+<br/> <br/>
 
+# What is Lazy Loading?
+<br/>
+Lazy loading is a performance optimization technique where non-critical website resources (like images, videos, or code) are loaded only when they are needed, usually when a user scrolls to them or interacts with a specific part of the page, instead of all at once. <br/>
 
