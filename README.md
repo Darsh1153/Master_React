@@ -98,3 +98,17 @@ class User → creates a component <br/>
 extends React.Component → inherits React features <br/>
 render() → returns JSX (UI) <br/>
 
+<br/>
+
+## Using state in class components <br/>
+### State = component’s own data
+ <br/>
+<img width="565" height="575" alt="Screenshot 2026-01-06 at 1 08 40 PM" src="https://github.com/user-attachments/assets/dec4fb69-1ed8-47f1-9d7c-1f3ec32cee33" />
+ <br/>
+ 
+### Important rules about state
+<br/>
+❌ Never modify state directly <br/>
+✅ Always use this.setState() <br/>
+State updates are asynchronous <br/>
+
