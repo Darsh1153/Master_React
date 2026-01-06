@@ -78,3 +78,15 @@ What is useEffect in React?
 <img width="761" height="969" alt="image" src="https://github.com/user-attachments/assets/4c988dd7-b930-494a-9059-126088579b56" /> <br/>
 
 
+<br/> <br/>
+
+# What are Class Based Components?
+Class based components are an older way of creating components in React using JavaScript classes. <br/>
+They: <br/>
+1. Extend React.Component
+2. Have a render() method
+3. Can manage state
+4. Can use lifecycle methods (like componentDidMount) <br/>
+
+Before Hooks existed, class components were the only way to use state and lifecycle logic. <br/>
+
