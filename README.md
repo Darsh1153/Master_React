@@ -132,7 +132,7 @@ Lifecycle methods are special methods in class-based components that React autom
 This happens only once. <br/>
 <img width="487" height="166" alt="Screenshot 2026-01-06 at 1 15 12 PM" src="https://github.com/user-attachments/assets/daaf1906-1571-433a-8759-7abcb7d039f9" /> <br/>
 
-## constructor(props) 
+## 1️⃣ constructor(props) 
 <br/>
 ### What it does: <br/>
 Initializes state <br/>
@@ -172,6 +172,92 @@ Subscriptions <br/>
 
 <img width="477" height="200" alt="Screenshot 2026-01-06 at 1 19 23 PM" src="https://github.com/user-attachments/assets/78144ff3-b8fb-4011-97d8-5e1ad9d7b3f0" /> <br/>
 
+<br/>
 
+// import React from 'react'
+
+// const User = () => {
+//   return (
+//     <div className='user-card'>
+//       <h1>Name - Darshan</h1>
+//       <h3>Profile - Darsh1153</h3>
+//       <h3>Email - imdarshan19@gmail.com</h3>
+//     </div>
+//   )
+// }
+
+// export default User
+
+
+
+import React from "react";
+
+class UserClass extends React.Component{
+
+    constructor(props){
+        super(props);
+        this.state = {
+            name: "Dummy",
+            login: "dummy profile",
+
+            count: 0,
+            count2: 0,
+        }
+        console.log("Child Constructor");
+    }
+
+    componentDidUpdate(prevProps, prevState) {
+        if(this.state.count !== prevState.count){
+        console.log("Called only when you update the dom");
+        }
+    }
+
+    async componentDidMount(){
+        // const data = await fetch("https://api.github.com/users/Darsh1153");
+        // const json = await data.json();
+        // this.setState({
+        //     name: json.name,
+        //     login: json.login,
+        // })
+
+        this.timer = setInterval(() => {
+            console.log("Rendering multiple times");
+        }, 1000);
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.timer);
+        console.log("Component Unmounted");
+    }
+
+
+    render() {
+        console.log("Child Render");
+        const {name, login, count, count2} = this.state;
+        return (
+            <div className="user-card">
+                <h1>Count - {count}</h1>
+                <button onClick={() => {
+                    this.setState({
+                        count: this.state.count + 1,
+                    })
+                }}>Increase Count</button>
+
+                <h1>{count2}</h1>
+                <button onClick={() => {
+                    this.setState({
+                        count2: this.state.count2 - 1, 
+                    })
+                }}>Decrease Count</button>
+
+                <h1>Name - {name}</h1>
+                <h3>Profile - {login}</h3>
+                <h3>Email - imdarshan19@gmail.com</h3>
+            </div>
+        )
+    }
+}
+
+export default UserClass;
 
 
