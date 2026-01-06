@@ -112,3 +112,66 @@ render() → returns JSX (UI) <br/>
 ✅ Always use this.setState() <br/>
 State updates are asynchronous <br/>
 
+<br/> <br/>
+
+# 🌱 What are Lifecycle Methods? <br/>
+Lifecycle methods are special methods in class-based components that React automatically calls at different stages of a component’s life. <br/>
+👉 Just like humans: <br/>
+1. Born <br/>
+2. Grow <br/>
+3. Die <br/>
+
+### A React component: <br/>
+1. Mounts (comes to the screen) <br/>
+2. Updates (changes) <br/>
+3. Unmounts (leaves the screen) <br/>
+
+## 1. MOUNTING PHASE (Component appears first time) 
+<br/>
+
+This happens only once. <br/>
+<img width="487" height="166" alt="Screenshot 2026-01-06 at 1 15 12 PM" src="https://github.com/user-attachments/assets/daaf1906-1571-433a-8759-7abcb7d039f9" /> <br/>
+
+## constructor(props) 
+<br/>
+### What it does: <br/>
+Initializes state <br/>
+Binds methods <br/>
+Runs before render <br/>
+
+### Rules: 
+<br/>
+Must call super(props) <br/>
+Runs only once <br/>
+<img width="463" height="259" alt="Screenshot 2026-01-06 at 1 16 40 PM" src="https://github.com/user-attachments/assets/10034d0b-1b54-4a31-8e22-c6d65d3f673e" />
+<br/>
+
+# 2️⃣ render() <br/>
+## What it does: <br/>
+Returns JSX (UI) <br/>
+Pure function <br/>
+Must NOT: <br/>
+Call API <br/>
+Modify state <br/>
+Runs: <br/>
+On mount <br/>
+On every update <br/>
+
+<img width="534" height="186" alt="Screenshot 2026-01-06 at 1 18 09 PM" src="https://github.com/user-attachments/assets/bd2c2dfb-5cb2-495e-bd32-cbcdf4dc7a13" /> <br/>
+
+# 3️⃣ componentDidMount()
+<br/>
+## What it does:
+<br/>
+Runs after first render <br/>
+DOM is now ready <br/>
+Used for: <br/>
+API calls <br/>
+Timers <br/>
+Subscriptions <br/>
+
+<img width="477" height="200" alt="Screenshot 2026-01-06 at 1 19 23 PM" src="https://github.com/user-attachments/assets/78144ff3-b8fb-4011-97d8-5e1ad9d7b3f0" /> <br/>
+
+
+
+
