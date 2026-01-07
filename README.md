@@ -312,7 +312,13 @@ Child A (updates state) <br/>
 <br/>
 
 # The best example for Lifting the state up could be Accordion, below is the code implemented for Accordion :
+<br/>
 
 
+
+<img width="812" height="729" alt="Screenshot 2026-01-07 at 1 10 47 PM" src="https://github.com/user-attachments/assets/f438fe80-5e66-4c01-b6be-f1b8277f2e71" />
+<br/>
+
+<img width="958" height="715" alt="Screenshot 2026-01-07 at 1 11 14 PM" src="https://github.com/user-attachments/assets/6978ffc6-cd86-46d5-bd55-09843414f55a" /> <br/>
 
 
