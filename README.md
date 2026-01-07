@@ -266,3 +266,53 @@ export default UserClass;
 Lazy loading is a performance optimization technique where non-critical website resources (like images, videos, or code) are loaded only when they are needed, usually when a user scrolls to them or interacts with a specific part of the page, instead of all at once. <br/>
 <img width="1170" height="819" alt="Screenshot 2026-01-06 at 4 21 40 PM" src="https://github.com/user-attachments/assets/7454fc7b-4c24-49bd-82bb-1947a7010a99" />
 <br/>
+
+
+<br/>
+
+# 🔼 What is “Lifting State Up” in React?
+<br/>
+In simple words: <br/>
+Lifting state up means moving shared state to the nearest common parent component. <br/>
+### Why?
+<br/>
+Because siblings cannot talk to each other directly in React. <br/>
+🧠 The core problem it solves <br/>
+React data flow is one-way (top → down). <br/>
+<img width="477" height="147" alt="Screenshot 2026-01-07 at 1 03 24 PM" src="https://github.com/user-attachments/assets/ca3ad315-9520-44ef-89e7-e9851a2d90c2" /> <br/>
+
+❌ Child A cannot directly change Child B <br/>
+✅ Only the Parent can coordinate them <br/>
+
+So we: <br/>
+Move state to the parent <br/>
+Pass data + callbacks down <br/>
+This is called lifting state up <br/>
+
+## ❌ BAD APPROACH (state inside children) <br/>
+Problem scenario: <br/>
+You have two buttons that should stay in sync. <br/>
+
+
+<img width="633" height="271" alt="Screenshot 2026-01-07 at 1 05 21 PM" src="https://github.com/user-attachments/assets/5765863a-333e-4904-8803-7af4645d1816" /> <br/>
+
+## ❌ What’s wrong? <br/>
+Each child has its own state <br/>
+Clicking button does NOT update text <br/>
+No shared source of truth <br/>
+
+# ✅ LIFTING STATE UP (correct way) <br/>
+Step 1: Move state to parent <br/>
+<img width="587" height="312" alt="Screenshot 2026-01-07 at 1 06 50 PM" src="https://github.com/user-attachments/assets/c1194e5b-bb8e-429d-a8d6-2230647cd3c9" /> <br/>
+Step 2: Pass state & updater down <br/>
+Child A (updates state) <br/>
+
+
+<img width="585" height="522" alt="Screenshot 2026-01-07 at 1 07 29 PM" src="https://github.com/user-attachments/assets/b7a4a139-f69f-47bb-abf7-52d530310796" />
+<br/>
+
+# The best example for Lifting the state up could be Accordion, below is the code implemented for Accordion :
+
+
+
+
