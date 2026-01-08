@@ -321,4 +321,20 @@ Child A (updates state) <br/>
 
 <img width="958" height="715" alt="Screenshot 2026-01-07 at 1 11 14 PM" src="https://github.com/user-attachments/assets/6978ffc6-cd86-46d5-bd55-09843414f55a" /> <br/>
 
+<br/>
+
+
+# 🧠 What is Context API?
+<br/>
+Context API is a way to share data globally between React components without passing props again and again. <br/>
+
+<img width="661" height="408" alt="Screenshot 2026-01-08 at 12 39 53 PM" src="https://github.com/user-attachments/assets/95a66e86-68fe-4cc5-a18a-6b8995ec55ca" /> <br/>
+<img width="666" height="454" alt="Screenshot 2026-01-08 at 12 40 19 PM" src="https://github.com/user-attachments/assets/5e22a530-2d11-4535-b6bb-a7728ce130ed" /> <br/>
+<img width="642" height="343" alt="Screenshot 2026-01-08 at 12 40 55 PM" src="https://github.com/user-attachments/assets/f2fd7b24-3a53-419e-9f27-21559bdac84e" /> <br/>
+
+
+
+
+<img width="671" height="329" alt="Screenshot 2026-01-08 at 12 40 40 PM" src="https://github.com/user-attachments/assets/9cd6b349-3a23-4eda-b491-4da93167f8be" />
+
 
